@@ -5,6 +5,7 @@
   <p>{{question}}</p>
 
   {%for val in choice%}
+
   <input id="next" name="next_Q" type="hidden" value="{{q_num+1}}" />
   <input type="radio" name="response" id="{{val}}" value="{{val}}" />
   <label for="{{val}}">{{val}}</label>
